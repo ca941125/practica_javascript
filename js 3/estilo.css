@@ -1,0 +1,68 @@
+
+*{
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+html{ 
+  scroll-behavior: smooth; 
+  background-color: #252A2E;
+  color: white;
+}
+
+/* ESTUDIOS  */
+.estudios {
+  text-align: center;
+  background-color: yellow;
+  margin: 40px 25px;
+  color: #252A2E;
+  border-radius: 15px;
+}
+.estudios h3{
+  padding: 15px;
+  font-size: 30px;
+}
+.estudios .card{
+  margin: 10px;
+  padding: 40px;
+  background-color: #252A2E;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 15px;
+}
+.estudios .card .toggle-btn{
+  background-color: #252A2E;
+  color: yellow;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.estudios .card .toggle-btn:hover{
+  border: 1px solid #252A2E;
+  background-color: yellow;
+  color: #252A2E;
+  font-weight: bold;
+}
+.estudios .card span{
+  color: yellow;
+}
+.estudios .card p{
+  color: white;
+}
+.contenido {
+    display: none;
+}
+.show {
+    display: block;
+}
+
+
+
+
+
+
+
+
