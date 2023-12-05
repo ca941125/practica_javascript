@@ -1,7 +1,7 @@
 //** métodos existentes en los strings:
 
 const product = 'Monitor 20 Pulgadas ';
-const valor = '30 USD';
+const precio = '$ 300.000';
 
     console.log(product.length); 
 
@@ -16,7 +16,6 @@ const valor = '30 USD';
 //** concatenar o unir 2 textos o variables:
 
 const producto = 'Monitor 50 Pulgadas ';
-const precio = '$ 300.000';
 
     console.log(producto.concat('En Descuento')); // Concactenar un string
     console.log(producto.concat(precio)); // Concactenar una variable
