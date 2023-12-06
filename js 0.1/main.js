@@ -93,3 +93,59 @@ console.log(puntaje4);
 let puntaje5= 5;
 puntaje5 -= 3;
 console.log(puntaje5);
+
+
+// operadores
+
+const numeroUno = 20;
+const numeroDos = "20";
+const numeroTres = 30;
+
+// Operador Mayor a 
+console.log( numeroUno > numeroTres );
+console.log( numeroTres > numeroUno );
+
+
+// Operador Menor que
+console.log(numeroTres < numero1);
+
+// Revisar si 2 valores son iguales o diferentes
+console.log(numeroUno == numeroTres);
+console.log(numeroUno == numeroDos);
+
+// Typeof
+console.log( typeof numeroUno );
+console.log( typeof numeroDos );
+
+// Operador estricto (revisa valor y tipo de dato)
+console.log(numeroUno === numeroDos );
+
+// Diferente a 
+
+console.log(numeroUno != numeroTres);
+console.log(numeroUno != numeroDos);
+console.log(numeroUno !== numeroDos);
+
+// Null y Undefined
+
+// veamos un ejemplo de undefined.
+let numero;
+
+console.log(numero); // La variable esta definida pero su valor no, por lo tanto es undefined...
+console.log(typeof numero)
+
+// En el caso de null es más bien asignarlo
+
+let numeroCuatro = null;
+console.log(numeroCuatro);
+console.log(typeof numeroCuatro); // ahora esto nos dirá que es un objeto, la especificación de ecma que es quien define el standard del lenguaje dice que null debe ser un objeto
+
+// Comparando null y undefined - Comparar un valor null y un undefined puede ser de las cosas más complicadas
+console.log (numero == numeroCuatro);
+
+// Puedes ver que el resultado es true, a pesar de que numero  no tiene un valor, eso usualmente nos lleva a ejecución de código no deseada o con comportamientos extraños ya que comparamos un valor que no existe, y nos retorna true
+
+// para ello llega a ser muy  util el comparador estricto
+console.log(numero === numeroCuatro);
+
+// De esta forma no comparamos un falso positivo y evitamos errores.
