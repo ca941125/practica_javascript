@@ -1,4 +1,5 @@
-// Operaciones
+//* Operaciones
+
 let resultadoSuma;
 let resultadoResta;
 let resultadoMult;
@@ -95,7 +96,7 @@ puntaje5 -= 3;
 console.log(puntaje5);
 
 
-// operadores
+//* operadores
 
 const numeroUno = 20;
 const numeroDos = "20";
@@ -149,3 +150,21 @@ console.log (numero == numeroCuatro);
 console.log(numero === numeroCuatro);
 
 // De esta forma no comparamos un falso positivo y evitamos errores.
+
+
+//*booleanos
+
+const boolean1 = true;
+const boolean2 = false;
+
+console.log(boolean1);
+console.log(boolean2);
+
+console.log(typeof boolean2);
+
+// Comparar booleans 
+
+console.log(boolean1 === boolean2); // comparar 2 variables
+
+console.log(boolean1 === true); // comparar si un boolean es verdadero
+console.log(boolean2 === true);// comparar si un boolean es verdadero
