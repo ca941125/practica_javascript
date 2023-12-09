@@ -18,16 +18,16 @@ const unArrayDeObjetos = [
   
   console.log(persona.animalesFavoritos[0]);
   
-  const productosDeMeLi = [
+  const productosDeCaro = [
     {
       id: 1,
-      nombre: "camita para gato",
+      nombre: "cama para gato",
       precio: 5000,
       foto: "https://http2.mlstatic.com/D_NQ_NP_2X_856850-MLA54512613734_032023-F.webp",
     },
     {
       id: 2,
-      nombre: "camita para gato bebe",
+      nombre: "cama para gato bebe",
       precio: 7000,
       foto: "https://http2.mlstatic.com/D_NQ_NP_2X_984257-MLA70558295880_072023-F.webp",
     },
