@@ -50,15 +50,7 @@ function muestraMiNombre(nombre, altura){
 
 function imprimir(){
     let datos = document.getElementById("datosTres");
-    datos.innerHTML = muestraMiNombre("Aguirre", 171);
+    datos.innerHTML = muestraMiNombre("Carolina", 171);
 }
 
 imprimir();
-
-
-
-let nombres = ["Carolina", "Soledad", "Valentina"];
-
-for(i = 0; i < nombres.length; i++){
-    document.write(nombres[i] + "<br>");
-}
