@@ -1,0 +1,15 @@
+.uno{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+#boton_color{
+    background-color: rgb(0, 255, 170);
+    color: white;
+    padding: 10px;
+}
+#boton_default{
+    background-color: rgb(0, 255, 170);
+    color: white;
+    padding: 10px;
+}
