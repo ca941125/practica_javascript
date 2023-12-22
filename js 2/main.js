@@ -11,7 +11,6 @@ let coche = {
     propiedad1: "valor aleatorio",
 };
 document.write("<h2>" + coche.modelo + "</h2>")
-coche.mostrarDatos();
 
 //clases 
 
