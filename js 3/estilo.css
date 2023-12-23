@@ -15,9 +15,11 @@ html{
 .estudios {
   text-align: center;
   background-color: yellow;
-  margin: 40px 25px;
+  margin:10% 15%;
   color: #252A2E;
   border-radius: 15px;
+  width: 70%;
+  position: absolute;
 }
 .estudios h3{
   padding: 15px;
@@ -46,6 +48,12 @@ html{
   color: #252A2E;
   font-weight: bold;
 }
+.estudios .contenido .curso{
+  padding: 10px;
+  border: 1px solid white;
+  margin: 20px;
+  border-radius: 15px 0;
+}
 .estudios .card span{
   color: yellow;
 }
@@ -53,11 +61,12 @@ html{
   color: white;
 }
 .contenido {
-    display: none;
+  display: none;
 }
 .show {
-    display: block;
+  display: block;
 }
+
 
 
 
