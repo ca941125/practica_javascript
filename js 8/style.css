@@ -3,13 +3,28 @@
     padding: 10px;
     text-align: center;
 }
-#boton_color{
+.uno button{
+    border: 2px solid rgb(0, 124, 93);
+    border-radius: 10px 0;
     background-color: rgb(0, 255, 170);
-    color: white;
+    color: black;
     padding: 10px;
+    font-weight: bold;
 }
 #boton_default{
-    background-color: rgb(0, 255, 170);
+    border-radius: 0 10px;
+}
+.dos{
+    margin-top: 10px;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+.dos button{
+    border: 2px solid #5a0000;
+    border-radius: 10px;
+    background-color: brown;
     color: white;
     padding: 10px;
+    font-weight: bold;
 }
