@@ -1,0 +1,86 @@
+/* colores
+lila icono titulos : #AC29E6;
+background iconos, titulo principal : #2D1331;
+textos :#B7A6B9; */
+
+*{
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+html{ 
+  scroll-behavior: smooth; 
+  background-color: #A023FB;
+  color: black;
+  width: 100%;
+}
+
+.fondo{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+.fondo  img{
+  width: 100%;
+}
+
+.contenedor {
+  background-color: white;
+  margin: -150px auto;
+  border-radius: 25px;
+  width: 40%;
+  padding: 10px;
+}
+
+.contenedor .titulo-principal{
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin: 20px auto;
+  display: flex;
+}
+
+.contenedor h4{
+  font-size: 18px;
+  color: #2D1331;
+  margin: 15px 0;
+}
+
+.contenedor .cards{
+  width: 90%;
+  margin: 10px auto;
+}
+
+.contenedor .card{
+  margin: 10px auto;
+}
+
+.contenedor .card .titulo{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenedor .card .buttons{
+  border: none;
+  background-color: white;
+  color: #2D1331;
+  font-size: 20px;
+}
+
+.contenedor .contenido p{
+  font-size: 1em;
+  color: #B7A6B9;
+  text-align: justify;
+}
+
+.contenido {
+  display: none;
+}
+
+.show {
+  display: block;
+} 
