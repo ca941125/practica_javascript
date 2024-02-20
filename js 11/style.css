@@ -1,8 +1,3 @@
-/* colores
-lila icono titulos : #AC29E6;
-background iconos, titulo principal : #2D1331;
-textos :#B7A6B9; */
-
 *{
   box-sizing: border-box;
   font-family: 'Nunito Sans', sans-serif;
@@ -12,7 +7,7 @@ textos :#B7A6B9; */
 
 html{ 
   scroll-behavior: smooth; 
-  background-color: #A023FB;
+  background-color: #F9EEFF;
   color: black;
   width: 100%;
 }
@@ -30,35 +25,36 @@ html{
 
 .contenedor {
   background-color: white;
-  margin: -150px auto;
+  margin: -200px auto;
   border-radius: 25px;
   width: 40%;
   padding: 10px;
 }
 
-.contenedor .titulo-principal{
-  font-size: 30px;
-  text-align: center;
-  font-weight: bold;
-  margin: 20px auto;
+.contenedor .titulo{
   display: flex;
+  align-items: center;
+  margin: 15px;
 }
 
-.contenedor h4{
-  font-size: 18px;
-  color: #2D1331;
-  margin: 15px 0;
-}
-
-.contenedor .cards{
-  width: 90%;
-  margin: 10px auto;
+.contenedor .titulo h1{
+  margin: 0 0 0 20px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .contenedor .card{
+  width: 100%;
   margin: 10px auto;
 }
 
+.contenedor .card .card-header{
+  padding: 10px;
+  margin: 15px auto;
+  display: flex;
+  justify-content: space-between
+}
+/* -- */
 .contenedor .card .titulo{
   display: flex;
   justify-content: space-between;
