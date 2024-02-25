@@ -54,29 +54,26 @@ html{
   display: flex;
   justify-content: space-between
 }
-/* -- */
-.contenedor .card .titulo{
-  display: flex;
-  justify-content: space-between;
+
+.contenedor .card .card-header h4{
+  font-size: 18px;
+  color: #2D1331;
 }
 
-.contenedor .card .buttons{
+.contenedor .card .card-header .botones{
   border: none;
   background-color: white;
   color: #2D1331;
   font-size: 20px;
+  cursor: pointer;
 }
 
-.contenedor .contenido p{
+.contenedor .card .card-body{
+  display: none;
+  padding: 0 10px;
+}
+.contenedor .card .card-body p{
   font-size: 1em;
   color: #B7A6B9;
   text-align: justify;
 }
-
-.contenido {
-  display: none;
-}
-
-.show {
-  display: block;
-} 
